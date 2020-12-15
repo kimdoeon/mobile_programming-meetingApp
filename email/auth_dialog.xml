@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CFD8DC"
+    android:orientation="vertical"
+    >
+ 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이메일 인증하기"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+      />
+ 
+ 
+    <EditText
+        android:id="@+id/emailAuth_number"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:hint="인증 번호를 등록해 주세요"
+        android:paddingLeft="10dp"
+        android:layout_margin="20dp"
+        android:background="#FFFFFF"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        />
+ 
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="이메일로 발송 된 인증 번호를 적어주세요."
+       android:layout_margin="20dp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        />
+ 
+    <TextView
+        android:id="@+id/emailAuth_time_counter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3:00"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        />
+ 
+    <Button
+        android:id="@+id/emailAuth_btn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#FFFFFF"
+        android:text="OK"
+        android:textSize="22sp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"/>
+ 
+</LinearLayout>
