@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@+id/editText1" android:inputType="phone" android:maxLength="15" android:layout_width="200dip" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:textSize="50dip"/>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="입력된 패스워드를 확인하고 새로운 패스워드를 입력받습니다"
+    />
+<Button android:text="change password" android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dip" />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="새로운  패스워드를 생성합니다(패스워드 입력을 생략합니다)"
+    />
+<Button android:text="init password" android:id="@+id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dip" />
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="위에 입력된 패스워를 확인하고 다음 뷰로 넘어갑니다"
+    />
+<Button android:text="check password" android:id="@+id/button3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dip" />
+    
+</LinearLayout>
